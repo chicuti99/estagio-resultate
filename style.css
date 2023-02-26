@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    text-align: center;
+}
+
+#logo{
+    margin: 30px;
+    padding-top: 5px;
+}
+
+nav{
+    padding: 15px;
+    display: block;
+    background-color: black;
+}
+
+a , nav > h1{
+
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+#formulario{
+    display: block;
+}
