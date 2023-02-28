@@ -1,2 +1,2 @@
-# estago resultate
+# estagio resultate
  
