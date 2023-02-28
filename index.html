@@ -11,30 +11,67 @@
     <header>
         <div><img src="desafio-resultate\arquivos\resultate.png" alt="resultate" id="logo"></div>
         <nav>
-            <a href="#"><h1> N O V O  P O L O </h1></a>
-            <h1>  |  </h1>
-            <a href="#"><h1> U P </h1></a>
+            <a href="#" id="polo"><h1> N O V O &nbsp P O L O </h1></a>
+            <h1>&nbsp&nbsp|&nbsp&nbsp</h1>
+            <a href="#" id="up"><h1> U P </h1></a>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section id="seccao1">
+            <div id="container">
+                <div id="txt_1">
+                    <p id="p1"><strong>POLO <br> 1.0 MPI</strong></p>
+                    <p id="p2">A PARTIR DE R$ 49.999,00 <br> + TAXA 0%</p>
+                </div>
+
+
+                <img src="desafio-resultate\arquivos\bg_up.png" alt="" id="imgFundo">
+                <div id="conteudo">
+                    <img src="desafio-resultate\arquivos\novo_polo.png" alt="" id="imgFrente">
+                </div>
+            </div>
 
         </section>
 
-        <section >
-            <h2>SAIA NA FRENTE E GARANTA O SEU</h2>
-            <P>Escolha o modelo que você deseja receber novas ofertas imperdiveis em primeira mão</P>
+        <section id="seccao2">
+            <h2 id="txt_form">SAIA NA FRENTE E GARANTA O SEU</h2>
+            <P id="txt_form1">Escolha o modelo que você deseja e receba ofertas<br>imperdiveis em primeira mão</P> 
+         
 
-            <form action="" id="formulario">
-                <input type="text" placeholder="Nome completo">
-                <input type="email" placeholder="E-Mail">
-                <input type="tel" placeholder="Telefone">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <input type="datetime" placeholder="Data de preferencia do Test Drive">
+            <form action="" id="form-container" >
+                <input type="text" placeholder="Nome completo" id="name" required>
 
+                <input type="email" placeholder="E-Mail" id="mail" required>
+
+                <input type="tel" placeholder="Telefone" id="fone" required>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem" id="area" ></textarea>
+
+                <input type="datetime" placeholder="Data de preferencia do Test Drive" id="data" required>
             </form>
+            <button onclick="preenche()" id="botao">GARANTA AGORA</button>
         </section>
+
+        <aside>
+            <p>imagens ilustrativas. Novo polo 1.0 mpi a partir de r$ 49.990,00 e financiamento com taxa de 0% valido para entrada de 60% e saldo em 24 meses. valido ate 31/10/18</p>
+        </aside>
     </main>
+
+    <footer>
+        <img src="desafio-resultate\arquivos\pin.png" alt="" id="local">
+        <p >av.vitoria, - vitoria - cep 290000-000</p>
+
+        <img src="desafio-resultate\arquivos\email.png" alt="" id="email">
+
+        <p >email: arthurchicuti0@gmail.com</p>
+
+        <img src="desafio-resultate\arquivos\phonelink_ring.png" alt="" id="tel">
+
+        <p >(27) 99956-2635</p>
+    </footer>
 </body>
+
+<script src="app.js"></script>
+
 </html>

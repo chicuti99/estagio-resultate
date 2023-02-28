@@ -27,6 +27,127 @@ a , nav > h1{
     text-decoration: none;
 }
 
-#formulario{
+#polo{
+    color:#FEC80E ;
+}
+
+
+body{
+    
+    background-image: linear-gradient(180deg, white,rgb(221, 220, 220));
+}
+
+section{
+    display: inline-block;
+    margin-top: 50px; 
+}
+
+#seccao2{
+    margin-left: 400px;
+    text-align: center;
+}
+
+.txt_form{
+    margin-bottom: 10px;
+}
+
+
+#container > div {
+    display: inline;
+}
+#container{
+    margin-left: 50px;
+    background-size: contain;
+    max-width: 200px;
+    max-height: 300px;
+    height: auto;
+    position: relative;
+}
+
+#container > #txt_1 {
+    display: flex;
+    width: 492px;
+    height: 80px;
+    background-color: rgb(230, 230, 230);
+}   
+
+#container > #txt_1 > #p1 , #container > #txt_1 > #p2{
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+#conteudo{
+    position: absolute;
+    max-width: 60px;
+    max-height: 80px;
+    height: auto;
+    width: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-300% ,-70%);
+
+}
+
+
+
+input,button{
     display: block;
+    margin: 10px 0px 0px 0px;
+    width: 400px;
+    height: 40px;
+    border: none;
+}
+
+button{
+    background-image: linear-gradient(to right, #6DC45D,#299B7E);
+}
+
+textarea{
+    display: block;
+    margin: 10px 0px 0px 0px;
+    width: 400px;
+    height: 100px;
+    border: none;
+}
+
+aside{
+    background-color: #FEC80E;
+    height: 50px;
+    margin-top: 200px;
+}
+
+aside >p{
+    
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: small;
+    
+    
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;   
+}
+
+footer > p, footer > div{
+    color: white;
+    display: inline-block;
+    
+}
+
+#local{
+    margin-right: 10px;
+}
+
+#email{
+    margin-left: 15px;
+}
+
+#tel{
+    margin-left: 15px;
+    padding-top: 10px;
 }
